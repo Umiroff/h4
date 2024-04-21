@@ -1,0 +1,79 @@
+.favs{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+}
+.fav{
+    position: relative;
+    width: 950px;
+    height: 300px;
+    border: 1px solid rgba(236, 236, 236, 1);
+    border-radius: 15px;
+}
+.fav img{
+    width: 200px;
+    height: 230px;
+    margin-left: 50px;
+}
+.fav h2{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.fav h3{
+    color: rgba(64, 191, 255, 1);
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+    top: 100px;
+    left: 300px;
+}
+.fav p{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 630px;
+}
+.fav_like{
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.fav_like:hover {
+    transform: scale(1.5);
+}
+
+.btns{
+    width: 300px;
+    height: 1100px;
+    margin: 50px;
+    background: whitesmoke;
+}
+.btns ul{
+    list-style: none;
+    line-height: 50px;
+}
+.btns_title{
+    font-size: 25px;
+}
+.pricer{
+    margin-top: 50px;
+}
+.pricer p{
+    font-size: 25px;
+}
+.col{
+    margin-top: 50px;
+}
+.col h2{
+    font-size: 25px;
+}
+.col img{
+    margin-top: 20px;
+}
+.brand{
+    margin-top: 50px;
+}
